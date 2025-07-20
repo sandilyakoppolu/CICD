@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 name: CI/CD React App
 
 on:
@@ -47,6 +47,3 @@ jobs:
           git config --global user.email "sandilyakoppolu007@gmail.com"
           npm install -g gh-pages
           gh-pages -d dist -r https://x-access-token:${GITHUB_TOKEN}@github.com/sandilyakoppolu/CICD.git
-=======
-
->>>>>>> 14687bb2a6bd07f34452473a58c1f2c117feec63
